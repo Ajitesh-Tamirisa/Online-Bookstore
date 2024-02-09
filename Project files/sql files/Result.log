@@ -1,0 +1,285 @@
+SQL> @Table_Creation_and_Constraints.sql
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table altered.
+
+
+Trigger created.
+
+SQL> @Data.sql
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+SQL> @Functionality_and_Queries.sql
+
+Function created.
+
+
+CREATECUSTORDER                                                                 
+---------------                                                                 
+           5000                                                                 
+
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+
+  ORDER_ID    CUST_ID DATE_OF_O SHIPPED_D SHIPPING_FEE NUMBER_OF_ORDERLINEITEMS 
+---------- ---------- --------- --------- ------------ ------------------------ 
+      4998       1008 01-OCT-20 01-OCT-20           10                        2 
+      4999       1008 11-OCT-22 25-DEC-22           10                        2 
+      4997       1008 01-OCT-20                     10                        2 
+
+
+Trigger created.
+
+
+1 row updated.
+
+
+  ORDER_ID    CUST_ID DATE_OF_O SHIPPED_D SHIPPING_FEE NUMBER_OF_ORDERLINEITEMS 
+---------- ---------- --------- --------- ------------ ------------------------ 
+      4998       1008 01-OCT-20 01-OCT-20            0                        2 
+      4999       1008 11-OCT-22 25-DEC-22            0                        2 
+      4997       1008 01-OCT-20                      0                        2 
+
+
+  ORDER_ID    CUST_ID DATE_OF_O SHIPPED_D SHIPPING_FEE NUMBER_OF_ORDERLINEITEMS 
+---------- ---------- --------- --------- ------------ ------------------------ 
+      4997       1008 01-OCT-20                      0                        2 
+
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+
+Function created.
+
+
+COMPUTETOTAL(5001)                                                              
+------------------                                                              
+             17602                                                                                                                          
+
+SQL> spool off;
