@@ -6,8 +6,18 @@ Tech stack - Oracle Database(SQL and PL/SQL), Java (Springboot, Hibernate, Thyme
 \
 \
 ![ER Diagram](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/ER%20diagram.jpg)
+\
+\
 ![ER Diagram Textbook notation](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Textbook_notation_ER_diagram.jpg)
+\
+\
 ![Login Page](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Login%20Page.png)
+\
+\
 ![Home Page](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Home%20page.png)
+\
+\
 ![Cart](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Cart.png)
+\
+\
 ![Order placed](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Order%20placed.png)
