@@ -3,7 +3,8 @@ A Sales Management System for MasterRobot, a bookstore that sells children’s c
 \
 \
 Tech stack - Oracle Database(SQL and PL/SQL), Java (Springboot, Hibernate, Thymeleaf)
-\\
+\
+\
 ![ER Diagram](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/ER%20diagram.jpg)
 ![ER Diagram Textbook notation](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Textbook_notation_ER_diagram.jpg)
 ![Login Page](https://github.com/Ajitesh-Tamirisa/Online-Bookstore/blob/main/Screenshots/Login%20Page.png)
